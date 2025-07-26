@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarbonSplit - Climate Action Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <!-- Only keep landing/marketing content. Remove all app/dashboard/login/nav code. Add a 'Get Started' button linking to app.html. -->
+    <main class="landing-page">
+
+
+        <!-- Animated Background -->
+        <div class="landing-background">
+            <div class="particle-grid"></div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="landing-content">
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-logo-container">
+                    <div class="logo-circle">
+                        <i class="fas fa-leaf logo-icon"></i>
+                    </div>
+                    <h1 class="hero-title">CarbonSplit</h1>
+                    <p class="hero-tagline">Revolutionizing Climate Action</p>
+                    <a href="app.html" class="btn-primary btn-large burst-btn" id="burst-btn" style="margin-top:2rem;position:relative;overflow:hidden;">Start your journey
+                      <span class="burst-container" id="burst-container"></span>
+                    </a>
+                </div>
+                
+
+                
+                <div class="hero-description">
+                    <p class="hero-text">Transform your eco-friendly actions into verified carbon credits. 
+                    Every action you take is split 50/50 - half for you, half permanently locked for Earth's benefit.</p>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="features-section">
+                <h2 class="section-title">How It Works</h2>
+                <div class="features-grid-2x2">
+                    <div class="feature-card" data-feature="1">
+                        <div class="feature-icon-container">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <h3>Capture Your Action</h3>
+                        <p>Take a photo of your climate action - planting trees, cleaning beaches, or switching to renewable energy.</p>
+                    </div>
+                    
+                    <div class="feature-card" data-feature="2">
+                        <div class="feature-icon-container">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI Verification</h3>
+                        <p>Our advanced AI analyzes your photo to verify the authenticity and calculate carbon impact.</p>
+                    </div>
+                    
+                    <div class="feature-card" data-feature="3">
+                        <div class="feature-icon-container">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <h3>Blockchain Storage</h3>
+                        <p>Verified actions are permanently stored on the Internet Computer (ICP) blockchain for transparency.</p>
+                    </div>
+                    
+                    <div class="feature-card" data-feature="4">
+                        <div class="feature-icon-container">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h3>50/50 Split</h3>
+                        <p>Carbon credits are split equally - half for your rewards, half locked for Earth's future.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Impact Section -->
+            <section class="impact-section">
+                <h2 class="section-title">Global Impact</h2>
+                <div class="impact-stats">
+                    <div class="impact-stat" data-stat="users">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <span class="stat-number" data-value="2345">2,345</span>
+                            <span class="stat-label">Climate Warriors</span>
+                        </div>
+                    </div>
+                    
+                    <div class="impact-stat" data-stat="actions">
+                        <div class="stat-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="stat-content">
+                            <span class="stat-number" data-value="18765">18,765</span>
+                            <span class="stat-label">Actions Completed</span>
+                        </div>
+                    </div>
+                    
+                    <div class="impact-stat" data-stat="carbon">
+                        <div class="stat-icon">
+                            <i class="fas fa-co2"></i>
+                        </div>
+                        <div class="stat-content">
+                            <span class="stat-number" data-value="12345">12,345</span>
+                            <span class="stat-label">kg CO₂ Saved</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Benefits Section -->
+            <section class="benefits-section">
+                <h2 class="section-title">Why Choose CarbonSplit?</h2>
+                <div class="benefits-grid-2x2">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Transparent & Secure</h3>
+                        <p>All actions are publicly visible and verified on the blockchain</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Earn Rewards</h3>
+                        <p>Compete in monthly quests and earn exclusive NFT rewards</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Real Impact</h3>
+                        <p>Every action directly contributes to Earth's carbon reduction</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>For Earth</h3>
+                        <p>50% of all carbon credits are permanently locked for Earth's benefit</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to Action -->
+            <section class="cta-section">
+                <div class="cta-content">
+                    <h2>Ready to Make a Difference?</h2>
+                    <p>Join thousands of climate warriors and start your journey today</p>
+                    <div class="cta-buttons">
+                        <button class="btn-primary btn-large" id="get-started-btn">
+                            <i class="fas fa-rocket"></i> Start your journey
+                        </button>
+                        <button class="btn-secondary btn-large" id="learn-more-btn">
+                            <i class="fas fa-info-circle"></i> Learn More
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Modals -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-sign-in-alt"></i> Login to CarbonSplit</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="login-name">Name or Email</label>
+                        <input type="text" id="login-name" placeholder="Enter your name or email" required />
+                    </div>
+                    <button type="submit" class="btn-primary btn-full">
+                        <i class="fas fa-sign-in-alt"></i> Login
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="action-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-plus"></i> Submit Climate Action</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="action-form">
+                    <div class="form-group">
+                        <label for="action-type">Action Type</label>
+                        <select id="action-type" required>
+                            <option value="">Select Action Type</option>
+                            <option value="Planted Trees">🌱 Planted Trees</option>
+                            <option value="Removed Plastic">♻️ Removed Plastic</option>
+                            <option value="Installed Solar Panels">☀️ Installed Solar Panels</option>
+                            <option value="Switched to Public Transport">🚌 Switched to Public Transport</option>
+                            <option value="Cleaned a Beach">🏖️ Cleaned a Beach</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="action-quantity">Quantity</label>
+                        <input type="number" id="action-quantity" placeholder="Enter quantity" min="1" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="action-image">Photo Proof (Required for Verification)</label>
+                        <input type="file" id="action-image" accept="image/*" required />
+                        <div class="verification-info">
+                            <i class="fas fa-robot"></i>
+                            <span>AI will verify your photo and store it on ICP blockchain</span>
+                        </div>
+                        <div id="image-preview"></div>
+                        <div id="verification-status" class="verification-status" style="display: none;">
+                            <div class="verification-step">
+                                <i class="fas fa-eye"></i>
+                                <span>Analyzing image...</span>
+                            </div>
+                            <div class="verification-step">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Verifying authenticity...</span>
+                            </div>
+                            <div class="verification-step">
+                                <i class="fas fa-link"></i>
+                                <span>Storing on ICP blockchain...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary btn-full">
+                        <i class="fas fa-check"></i> Submit Action
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="result-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-trophy"></i> Action Submitted!</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body" id="result-content">
+                <!-- Result content will be populated by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Quest Leaderboard Modal -->
+    <div class="modal" id="leaderboard-modal">
+        <div class="modal-content quest-modal">
+            <div class="modal-header">
+                <h3><i class="fas fa-crown"></i> Monthly Quest Leaderboard</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="quest-info">
+                    <div class="quest-timer">
+                        <i class="fas fa-clock"></i>
+                        <span id="quest-time-remaining">Loading...</span>
+                    </div>
+                    <div class="quest-prize">
+                        <i class="fas fa-gem"></i>
+                        <span>Exclusive NFT Rewards</span>
+                    </div>
+                </div>
+                <div class="leaderboard-container" id="leaderboard-container">
+                    <!-- Leaderboard will be populated by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NFT Reward Modal -->
+    <div class="modal" id="nft-modal">
+        <div class="modal-content nft-modal">
+            <div class="modal-header">
+                <h3><i class="fas fa-gem"></i> NFT Reward Unlocked!</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="nft-display" id="nft-display">
+                    <!-- NFT will be populated by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Learn More Modal -->
+    <div class="modal" id="learn-more-modal">
+        <div class="modal-content learn-more-modal">
+            <div class="modal-header">
+                <h3><i class="fas fa-info-circle"></i> About CarbonSplit</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="learn-more-content">
+                    <div class="learn-section">
+                        <h4><i class="fas fa-balance-scale"></i> How It Works</h4>
+                        <p>CarbonSplit is a revolutionary platform that rewards climate action. When you submit proof of eco-friendly actions, our AI verifies your contribution and calculates carbon credits. These credits are split 50/50 - half for you to use in our NFT marketplace, half permanently locked for Earth's benefit.</p>
+                    </div>
+                    
+                    <div class="learn-section">
+                        <h4><i class="fas fa-robot"></i> AI Verification</h4>
+                        <p>Every action requires photo proof that our advanced AI analyzes for authenticity. This ensures all contributions are genuine and prevents fraud, maintaining the integrity of our climate impact tracking.</p>
+                    </div>
+                    
+                    <div class="learn-section">
+                        <h4><i class="fas fa-link"></i> Blockchain Storage</h4>
+                        <p>All verified actions are permanently stored on the Internet Computer (ICP) blockchain, creating an immutable, transparent record of climate contributions that can never be altered or deleted.</p>
+                    </div>
+                    
+                    <div class="learn-section">
+                        <h4><i class="fas fa-trophy"></i> Monthly Quests</h4>
+                        <p>Compete with other climate warriors in monthly quests. The top 3 contributors earn exclusive NFT rewards and special recognition in our community.</p>
+                    </div>
+                    
+                    <div class="learn-section">
+                        <h4><i class="fas fa-crown"></i> Ranking System</h4>
+                        <p>Progress through 5 ranks (Bronze to Diamond) based on your climate impact. Higher ranks unlock exclusive NFTs, discounts, and special marketplace privileges.</p>
+                    </div>
+                    
+                    <div class="learn-section">
+                        <h4><i class="fas fa-store"></i> NFT Marketplace</h4>
+                        <p>Use your earned carbon credits to purchase exclusive NFTs. Each rank unlocks new collections, with higher ranks getting better discounts and access to rare items.</p>
+                    </div>
+                </div>
+                
+                <div class="learn-more-actions">
+                    <button class="btn-primary" onclick="hideModal('learn-more-modal'); showModal('login-modal');">
+                        <i class="fas fa-rocket"></i> Get Started Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Verification Modal -->
+    <div class="modal" id="verification-modal">
+        <div class="modal-content verification-modal">
+            <div class="modal-header">
+                <h3><i class="fas fa-robot"></i> AI Verification & Blockchain Storage</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="verification-process">
+                    <div class="verification-step active" id="step-1">
+                        <div class="step-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>Image Analysis</h4>
+                            <p>AI is analyzing your photo for climate action verification...</p>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="verification-step" id="step-2">
+                        <div class="step-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>Authenticity Check</h4>
+                            <p>Verifying image authenticity and detecting any manipulation...</p>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="verification-step" id="step-3">
+                        <div class="step-icon">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>ICP Blockchain Storage</h4>
+                            <p>Storing verified image hash on Internet Computer blockchain...</p>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="verification-step" id="step-4">
+                        <div class="step-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>Verification Complete</h4>
+                            <p>Your action has been verified and stored on the blockchain!</p>
+                            <div class="blockchain-info">
+                                <div class="blockchain-item">
+                                    <span class="label">ICP Hash:</span>
+                                    <span class="value" id="icp-hash">Loading...</span>
+                                </div>
+                                <div class="blockchain-item">
+                                    <span class="label">Verification ID:</span>
+                                    <span class="value" id="verification-id">Loading...</span>
+                                </div>
+                                <div class="blockchain-item">
+                                    <span class="label">Timestamp:</span>
+                                    <span class="value" id="blockchain-timestamp">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>CarbonSplit</h4>
+                <p>Half for You. Half for Earth.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#" data-tab="quests">Monthly Quest</a></li>
+                    <li><a href="#" data-tab="feed">Public Feed</a></li>
+                    <li><a href="#" data-tab="profile">Profile</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Climate Impact</h4>
+                <p>Every action counts towards a sustainable future.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CarbonSplit. Built for climate action.</p>
+        </div>
+    </footer>
+
+    <style>
+    .burst-container {
+      pointer-events: none;
+      position: absolute;
+      left: 0; top: 0; width: 100%; height: 100%;
+      z-index: 2;
+    }
+    .burst-dot {
+      position: absolute;
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      opacity: 0.85;
+      pointer-events: none;
+      will-change: transform, opacity;
+    }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script>
+    // Diwali burst effect for Start your journey button using anime.js
+    const burstBtn = document.getElementById('burst-btn');
+    const burstContainer = document.getElementById('burst-container');
+    if (burstBtn && burstContainer) {
+      burstBtn.addEventListener('mouseenter', function(e) {
+        burstContainer.innerHTML = '';
+        const colors = ['#ffec40','#ff5e62','#ff36a3','#36e2ff','#7cff5e','#ffb347','#ff36a3','#ffec40','#ff5e62','#36e2ff'];
+        const rect = burstBtn.getBoundingClientRect();
+        const cx = rect.width/2, cy = rect.height/2;
+        const dots = [];
+        for (let i = 0; i < 18; i++) {
+          const angle = (i/18)*2*Math.PI;
+          const dot = document.createElement('span');
+          dot.className = 'burst-dot';
+          dot.style.background = colors[i%colors.length];
+          dot.style.left = cx-6+'px';
+          dot.style.top = cy-6+'px';
+          burstContainer.appendChild(dot);
+          dots.push({dot, angle});
+        }
+        anime({
+          targets: dots.map(d=>d.dot),
+          translateX: (el, i) => Math.cos(dots[i].angle)*60,
+          translateY: (el, i) => Math.sin(dots[i].angle)*60,
+          scale: [1, 0.5],
+          opacity: [0.85, 0],
+          easing: 'easeOutCubic',
+          duration: 700,
+          delay: anime.stagger(10),
+          complete: () => burstContainer.innerHTML = ''
+        });
+      });
+    }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html> 
